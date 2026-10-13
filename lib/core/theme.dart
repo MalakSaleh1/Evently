@@ -8,6 +8,11 @@ class AppTheme {
     dividerColor: AppColors.lightDividerColor,
     primaryColorLight: AppColors.white,
     primaryColorDark: AppColors.lightPrimaryColor,
+    bottomNavigationBarTheme: BottomNavigationBarThemeData(
+      selectedItemColor: AppColors.lightPrimaryColor,
+      backgroundColor: AppColors.lightBGColor,
+      elevation: 0,
+    ),
     inputDecorationTheme: InputDecorationTheme(
       border: OutlineInputBorder(
 
@@ -92,6 +97,15 @@ class AppTheme {
     primaryColorLight: AppColors.darkBlueColor,
     primaryColorDark: AppColors.white,
     hintColor: AppColors.lightTextFieldColor,
+
+    bottomNavigationBarTheme: BottomNavigationBarThemeData(
+      selectedItemColor: AppColors.darkPrimaryColor,
+      backgroundColor: AppColors.darkBGColor,
+      unselectedIconTheme: IconThemeData(
+        color: AppColors.darkGreyColor
+      ),
+      elevation: 0,
+    ),
 
     inputDecorationTheme: InputDecorationTheme(
       border: OutlineInputBorder(

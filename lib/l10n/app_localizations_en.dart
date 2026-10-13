@@ -9,6 +9,81 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
+  String get welcomeBack => 'Welcome Back ✨';
+
+  @override
+  String get all => 'All';
+
+  @override
+  String get noEventsYet => 'No events yet';
+
+  @override
+  String get addEvent => 'Add Event';
+
+  @override
+  String get editEvent => 'Edit Event';
+
+  @override
+  String get updateEvent => 'Update Event';
+
+  @override
+  String get title => 'Title';
+
+  @override
+  String get eventTitleHint => 'Event title';
+
+  @override
+  String get description => 'Description';
+
+  @override
+  String get eventDescriptionHint => 'Event Description';
+
+  @override
+  String get eventDate => 'Event Date';
+
+  @override
+  String get eventTime => 'Event Time';
+
+  @override
+  String get chooseDate => 'Choose Date';
+
+  @override
+  String get chooseTime => 'Choose Time';
+
+  @override
+  String get chooseDateAndTime => 'Choose date and time';
+
+  @override
+  String get eventDetails => 'Event details';
+
+  @override
+  String get catSport => 'Sport';
+
+  @override
+  String get catBirthday => 'Birthday';
+
+  @override
+  String get catMeeting => 'Meeting';
+
+  @override
+  String get catGaming => 'Gaming';
+
+  @override
+  String get catEating => 'Eating';
+
+  @override
+  String get catHoliday => 'Holiday';
+
+  @override
+  String get catExhibition => 'Exhibition';
+
+  @override
+  String get catWorkshop => 'Workshop';
+
+  @override
+  String get catBookClub => 'Book Club';
+
+  @override
   String get personalizeExperience => 'Personalize Your Experience';
 
   @override

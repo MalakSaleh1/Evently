@@ -98,6 +98,156 @@ abstract class AppLocalizations {
     Locale('en'),
   ];
 
+  /// No description provided for @welcomeBack.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome Back ✨'**
+  String get welcomeBack;
+
+  /// No description provided for @all.
+  ///
+  /// In en, this message translates to:
+  /// **'All'**
+  String get all;
+
+  /// No description provided for @noEventsYet.
+  ///
+  /// In en, this message translates to:
+  /// **'No events yet'**
+  String get noEventsYet;
+
+  /// No description provided for @addEvent.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Event'**
+  String get addEvent;
+
+  /// No description provided for @editEvent.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit Event'**
+  String get editEvent;
+
+  /// No description provided for @updateEvent.
+  ///
+  /// In en, this message translates to:
+  /// **'Update Event'**
+  String get updateEvent;
+
+  /// No description provided for @title.
+  ///
+  /// In en, this message translates to:
+  /// **'Title'**
+  String get title;
+
+  /// No description provided for @eventTitleHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Event title'**
+  String get eventTitleHint;
+
+  /// No description provided for @description.
+  ///
+  /// In en, this message translates to:
+  /// **'Description'**
+  String get description;
+
+  /// No description provided for @eventDescriptionHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Event Description'**
+  String get eventDescriptionHint;
+
+  /// No description provided for @eventDate.
+  ///
+  /// In en, this message translates to:
+  /// **'Event Date'**
+  String get eventDate;
+
+  /// No description provided for @eventTime.
+  ///
+  /// In en, this message translates to:
+  /// **'Event Time'**
+  String get eventTime;
+
+  /// No description provided for @chooseDate.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose Date'**
+  String get chooseDate;
+
+  /// No description provided for @chooseTime.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose Time'**
+  String get chooseTime;
+
+  /// No description provided for @chooseDateAndTime.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose date and time'**
+  String get chooseDateAndTime;
+
+  /// No description provided for @eventDetails.
+  ///
+  /// In en, this message translates to:
+  /// **'Event details'**
+  String get eventDetails;
+
+  /// No description provided for @catSport.
+  ///
+  /// In en, this message translates to:
+  /// **'Sport'**
+  String get catSport;
+
+  /// No description provided for @catBirthday.
+  ///
+  /// In en, this message translates to:
+  /// **'Birthday'**
+  String get catBirthday;
+
+  /// No description provided for @catMeeting.
+  ///
+  /// In en, this message translates to:
+  /// **'Meeting'**
+  String get catMeeting;
+
+  /// No description provided for @catGaming.
+  ///
+  /// In en, this message translates to:
+  /// **'Gaming'**
+  String get catGaming;
+
+  /// No description provided for @catEating.
+  ///
+  /// In en, this message translates to:
+  /// **'Eating'**
+  String get catEating;
+
+  /// No description provided for @catHoliday.
+  ///
+  /// In en, this message translates to:
+  /// **'Holiday'**
+  String get catHoliday;
+
+  /// No description provided for @catExhibition.
+  ///
+  /// In en, this message translates to:
+  /// **'Exhibition'**
+  String get catExhibition;
+
+  /// No description provided for @catWorkshop.
+  ///
+  /// In en, this message translates to:
+  /// **'Workshop'**
+  String get catWorkshop;
+
+  /// No description provided for @catBookClub.
+  ///
+  /// In en, this message translates to:
+  /// **'Book Club'**
+  String get catBookClub;
+
   /// No description provided for @personalizeExperience.
   ///
   /// In en, this message translates to:

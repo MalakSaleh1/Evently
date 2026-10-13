@@ -1,5 +1,14 @@
 import 'package:evently/core/app_provider/app_provider.dart';
 import 'package:evently/core/theme.dart';
+import 'package:evently/modules/add_event/screens/add_event_screen.dart';
+import 'package:evently/modules/auth/login_screen.dart';
+import 'package:evently/modules/auth/register_screen.dart';
+import 'package:evently/modules/auth/reset_password_screen.dart';
+import 'package:evently/modules/event_details/screens/edit_event.dart';
+import 'package:evently/modules/event_details/screens/event_details.dart';
+import 'package:evently/modules/layout/layoutScreen.dart';
+import 'package:evently/modules/onboarding/screens/onboarding.dart';
+import 'package:evently/modules/onboarding/start_screen.dart';
 import 'package:evently/modules/splash_screen/splash_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -33,6 +42,21 @@ class MyApp extends StatelessWidget {
       builder: (context,child){
         var provider=Provider.of<AppProvider>(context);
         return MaterialApp(
+          routes: {
+            SplashScreen.routeName :(_)=>SplashScreen(),
+            StartScreen.routeName :(_)=>StartScreen(),
+            Onboarding.routeName:(_)=>Onboarding(),
+            LoginScreen.routeName:(_)=>LoginScreen(),
+            RegisterScreen.routeName:(_)=>RegisterScreen(),
+            ResetPasswordScreen.routeName:(_)=>ResetPasswordScreen(),
+            LayoutScreen.routeName:(_)=>LayoutScreen(),
+            AddEventScreen.routeName:(_)=>AddEventScreen(),
+            EditEvent.routName:(_)=>EditEvent(),
+
+
+
+
+          },
           locale:Locale(provider.locale),
           localizationsDelegates: [
             AppLocalizations.delegate, // Add this line

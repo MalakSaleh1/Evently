@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class Onboarding extends StatefulWidget {
+  static const String routeName="onboarding";
   const Onboarding({super.key});
 
   @override

@@ -13,6 +13,7 @@ import '../../l10n/app_localizations.dart';
 import 'maneger/auth_provider.dart';
 
 class RegisterScreen extends StatefulWidget {
+  static const String routeName="register";
    RegisterScreen({super.key});
 
   @override

@@ -4,7 +4,7 @@ import 'package:provider/provider.dart';
 import '../core/app_colors.dart';
 import '../core/app_provider/app_provider.dart';
 class CustomTextForm extends StatefulWidget {
-   CustomTextForm({super.key,required this.text,required this.controller,required this.validator});
+   CustomTextForm({super.key,required this.text,required this.controller, this.validator});
  String text;
  String? icon;
  String? suffixIcon;

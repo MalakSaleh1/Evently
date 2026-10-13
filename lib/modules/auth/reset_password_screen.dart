@@ -8,6 +8,7 @@ import '../../core/app_provider/app_provider.dart';
 import '../../l10n/app_localizations.dart';
 
 class ResetPasswordScreen extends StatelessWidget {
+  static const String routeName="reset";
   const ResetPasswordScreen({super.key});
 
   @override

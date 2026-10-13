@@ -2,8 +2,10 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:evently/core/app_colors.dart';
 import 'package:evently/modules/onboarding/start_screen.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 class SplashScreen extends StatefulWidget {
+  static const String routeName="splashScreen";
   const SplashScreen({super.key});
 
   @override
@@ -15,8 +17,15 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     Future.delayed(Duration(milliseconds: 3000),(){
-      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> StartScreen()));
-    });
+      bool isLogin=FirebaseAuth.instance.currentUser!=null;
+      if(isLogin){
+        Navigator.pushReplacementNamed(context, "layout");
+      }
+      else {
+        Navigator.pushReplacementNamed(
+            context, "start");
+
+    }});
     super.initState();
   }
   @override

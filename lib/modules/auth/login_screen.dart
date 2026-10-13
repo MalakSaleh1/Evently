@@ -10,6 +10,7 @@ import '../../core/app_provider/app_provider.dart';
 import '../../l10n/app_localizations.dart';
 
 class LoginScreen extends StatefulWidget {
+  static const String routeName="login";
   const LoginScreen({super.key});
 
   @override

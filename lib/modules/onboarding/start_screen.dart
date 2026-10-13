@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class StartScreen extends StatelessWidget {
+  static const String routeName="start";
   const StartScreen({super.key});
 
   @override

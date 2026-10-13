@@ -9,11 +9,86 @@ class AppLocalizationsAr extends AppLocalizations {
   AppLocalizationsAr([String locale = 'ar']) : super(locale);
 
   @override
+  String get welcomeBack => 'أهلاً بعودتك ✨';
+
+  @override
+  String get all => 'الكل';
+
+  @override
+  String get noEventsYet => 'لا توجد أحداث بعد';
+
+  @override
+  String get addEvent => 'إضافة حدث';
+
+  @override
+  String get editEvent => 'تعديل الحدث';
+
+  @override
+  String get updateEvent => 'تحديث الحدث';
+
+  @override
+  String get title => 'العنوان';
+
+  @override
+  String get eventTitleHint => 'عنوان الحدث';
+
+  @override
+  String get description => 'الوصف';
+
+  @override
+  String get eventDescriptionHint => 'وصف الحدث';
+
+  @override
+  String get eventDate => 'تاريخ الحدث';
+
+  @override
+  String get eventTime => 'وقت الحدث';
+
+  @override
+  String get chooseDate => 'اختر التاريخ';
+
+  @override
+  String get chooseTime => 'اختر الوقت';
+
+  @override
+  String get chooseDateAndTime => 'اختر التاريخ والوقت';
+
+  @override
+  String get eventDetails => 'تفاصيل الحدث';
+
+  @override
+  String get catSport => 'رياضة';
+
+  @override
+  String get catBirthday => 'عيد ميلاد';
+
+  @override
+  String get catMeeting => 'اجتماع';
+
+  @override
+  String get catGaming => 'ألعاب';
+
+  @override
+  String get catEating => 'طعام';
+
+  @override
+  String get catHoliday => 'إجازة';
+
+  @override
+  String get catExhibition => 'معرض';
+
+  @override
+  String get catWorkshop => 'ورشة عمل';
+
+  @override
+  String get catBookClub => 'نادي الكتاب';
+
+  @override
   String get personalizeExperience => 'خصّص تجربتك';
 
   @override
   String get onboardingDescription =>
-      'اختر المظهر واللغة المفضلين لديك لتبدأ بتجربة مريحة ومخصصة تناسب أسلوبك.';
+      'اختر المظهر واللغة المفضلين لديك لتبدأ تجربة مريحة ومصممة خصيصاً لتناسب أسلوبك.';
 
   @override
   String get language => 'اللغة';
@@ -25,7 +100,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get letsStart => 'لنبدأ';
 
   @override
-  String get loginToYourAccount => 'تسجيل الدخول إلى حسابك';
+  String get loginToYourAccount => 'سجّل الدخول إلى حسابك';
 
   @override
   String get enterYourEmail => 'أدخل بريدك الإلكتروني';
@@ -55,7 +130,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get enterYourName => 'أدخل اسمك';
 
   @override
-  String get confirmYourPassword => 'تأكيد كلمة المرور';
+  String get confirmYourPassword => 'أكّد كلمة المرور';
 
   @override
   String get signUpButton => 'إنشاء حساب';
@@ -67,7 +142,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get enterYourEmailError => 'أدخل بريدك الإلكتروني';
 
   @override
-  String get enterValidEmail => 'أدخل بريدًا إلكترونيًا صحيحًا';
+  String get enterValidEmail => 'أدخل بريداً إلكترونياً صالحاً';
 
   @override
   String get enterYourPasswordError => 'أدخل كلمة المرور';
@@ -95,19 +170,19 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get onboardingDesc1 =>
-      'انطلق في عالم من الفعاليات المصممة لتناسب اهتماماتك الفريدة. سواء كنت تحب الموسيقى الحية أو ورش الفن أو التواصل المهني أو اكتشاف تجارب جديدة، فلدينا ما يناسب الجميع. ستساعدك توصياتنا المختارة على الاستكشاف والتواصل والاستفادة القصوى من كل فرصة حولك.';
+      'انغمس في عالم من الفعاليات المصممة لتناسب اهتماماتك الفريدة. سواء كنت تحب الموسيقى الحية أو ورش الفن أو التواصل المهني أو اكتشاف تجارب جديدة، لدينا ما يناسب الجميع. ستساعدك توصياتنا المختارة على الاستكشاف والتواصل والاستفادة من كل فرصة حولك.';
 
   @override
-  String get onboardingTitle2 => 'تخطيط الفعاليات بسهولة';
+  String get onboardingTitle2 => 'تخطيط الفعاليات بلا عناء';
 
   @override
   String get onboardingDesc2 =>
-      'تخلّص من عناء تنظيم الفعاليات مع أدوات التخطيط المتكاملة لدينا. من إعداد الدعوات وإدارة تأكيدات الحضور إلى جدولة التذكيرات وتنسيق التفاصيل، نحن نوفر لك كل ما تحتاجه. خطّط بسهولة وركّز على الأهم: صناعة تجربة لا تُنسى لك ولضيوفك.';
+      'تخلّص من متاعب تنظيم الفعاليات مع أدوات التخطيط المتكاملة لدينا. من إعداد الدعوات وإدارة الردود إلى جدولة التذكيرات وتنسيق التفاصيل، نحن نوفر لك كل ما تحتاجه. خطّط بسهولة وركّز على ما يهم، وهو صنع تجربة لا تُنسى لك ولضيوفك.';
 
   @override
   String get onboardingTitle3 => 'تواصل مع أصدقائك وشارك اللحظات';
 
   @override
   String get onboardingDesc3 =>
-      'اجعل كل فعالية لا تُنسى بمشاركة التجربة مع الآخرين. تتيح لك منصتنا دعوة أصدقائك وإبقاء الجميع على اطلاع والاحتفال باللحظات معًا. التقط الإثارة وشاركها مع شبكتك لتعيش أبرز اللحظات من جديد وتحتفظ بالذكريات.';
+      'اجعل كل فعالية لا تُنسى بمشاركة التجربة مع الآخرين. تتيح لك منصتنا دعوة الأصدقاء وإبقاء الجميع على اطلاع والاحتفال باللحظات معاً. التقط الحماس وشاركه مع شبكتك لتعيش أبرز اللحظات من جديد وتحتفظ بالذكريات.';
 }

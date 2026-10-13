@@ -1,4 +1,5 @@
 import 'package:evently/modules/auth/services/auth_service.dart';
+import 'package:evently/modules/layout/layoutScreen.dart';
 import 'package:evently/modules/layout/screens/home_screen/home_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -113,7 +114,7 @@ class AuthProvider extends ChangeNotifier{
                backgroundColor: Colors.green,
                content: Text("Welcome ${user.displayName}")));
        Future.delayed(Duration(milliseconds: 300,),(){
-         Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>HomeScreen()));
+         Navigator.pushReplacementNamed(context, LayoutScreen.routeName);
        })  ;
      }catch(e) {
        ScaffoldMessenger.of(context).showSnackBar(SnackBar(
